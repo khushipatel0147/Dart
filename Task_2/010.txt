@@ -1,0 +1,17 @@
+//user given number is even or odd.
+
+import 'dart:io';
+void main()
+{
+  dynamic k=13;
+
+  if(k%2==0)
+    {
+      print("Vlaue is Even");
+    }
+  else
+    {
+      print("Value is Odd");
+    }
+
+}

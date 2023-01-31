@@ -1,0 +1,13 @@
+// Write a Dart program to find a Simple Interest.
+
+
+void main() 
+{
+  
+ dynamic a=15000,y=3,r=3,t=0;
+  
+  t=a*r*y/100;
+
+  print("amount $a \nrate $r% \namount With  rate ${a+t}");
+}
+

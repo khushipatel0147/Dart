@@ -1,0 +1,10 @@
+// Write a Dart program to print full name by getting first name and last name by user input.
+
+void main() 
+{
+  
+ dynamic f="Patel ", l="Khushi";
+  
+ print("Your Name is ${f+l}");
+
+}

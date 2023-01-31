@@ -1,0 +1,40 @@
+//create a calculator using switch case.
+import 'dart:io';
+
+import '';
+
+void main() {
+  dynamic x = 20,
+      y = 30,
+      n;
+
+  print("Press the +");
+  print("Press the -");
+  print("Press the *");
+  print("Press the /");
+
+  n = stdin.readLineSync();
+  switch(n) {
+    case '+':
+    {
+    print(x+y);
+    break;
+    }
+    case '-':
+    {
+    print(x-y);
+    break;
+    }
+    case '*':
+    {
+    print(x*y);
+    break;
+    }
+    case '/':
+    {
+    print(x/y);
+    break;
+    }
+    default:
+  }
+}

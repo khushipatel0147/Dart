@@ -1,0 +1,10 @@
+  // Dart program to perform addition of two different numbers.
+
+void main() 
+{
+  
+  dynamic x=13,y=100;
+  
+  print("Addition is  ${x+y}");
+  
+}

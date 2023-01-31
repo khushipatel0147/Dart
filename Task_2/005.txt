@@ -1,0 +1,18 @@
+//to generates multiplication tables between n1 and n2 provided values.
+void main() 
+{
+  
+  int n=1,n1=5,i,k,j;
+  
+  print("  Table is  ");
+  for(i=n;i<=n1;i++)
+  {
+    for(j=1;j<=10;j++)
+    {
+    print("$i X  $j = ${j*n}");
+    }
+      print("\n\n");
+  }
+
+
+}
