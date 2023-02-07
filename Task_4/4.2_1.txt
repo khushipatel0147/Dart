@@ -1,0 +1,30 @@
+import 'dart:io';
+
+void main()
+{
+   List l1=[];
+   int n;
+
+   print("Entre the value of n  ");
+   n=int.parse(stdin.readLineSync()!);
+
+   for(int i=0;i<n;i++) {
+     print("Entre ${i+1} the Name");
+     String name = stdin.readLineSync()!;
+     print("Entre ${i+1} the Id");
+     int id = int.parse(stdin.readLineSync()!);
+     print("Entre  ${i+1} the Salary");
+     int salary = int.parse(stdin.readLineSync()!);
+     print("Entre ${i+1} the Age");
+     int age = int.parse(stdin.readLineSync()!);
+
+     Map m1 = {
+       "Id": "$id",
+       "Name": "$name",
+       "Salary": "$salary",
+       "Age": "$age"
+     };
+    l1.add(m1);
+   }
+   print(l1);
+}
